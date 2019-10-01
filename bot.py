@@ -37,6 +37,8 @@ def receivingMsg(msg):
         
         elif('beleza?' == text.lower()):
             bot.sendMessage(chatID, "De boa na lagoa")
+        elif('está triste?' == text.lower()):
+            bot.sendMessage(chatID, "Sim")
 
         elif('seu nome' in text.lower()):
             bot.sendMessage(chatID, "Sou Renan's, o bot que vai dominar o mundo, e o seu nome qual é?")
